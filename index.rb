@@ -6,7 +6,7 @@ sua_idade = 'Sua idade é:'
 if @idade == 1
   puts(" #{sua_idade} #{@idade} ano")
 elsif @idade == 0
-  puts("Você é recém nascido")
+  puts("Você é recém nascido!")
 elsif @idade < 0
   puts("Ano de nascimento inválido!")
 else
